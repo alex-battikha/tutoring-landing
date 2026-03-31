@@ -1,0 +1,15 @@
+# Brainstorm / planning artifacts
+.superpowers/
+docs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+
+# Node (if http-server is installed locally)
+node_modules/
