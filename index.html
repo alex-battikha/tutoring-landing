@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alex Battikha — Tutoring &amp; College Consulting</title>
-  <meta name="description" content="Math &amp; CS tutoring and end-to-end college consulting from a world robotics champion, Jacobs Scholar (sub-1%), and admit to Johns Hopkins, UC Berkeley, UCLA, UCSD, and UIUC. Book a free 15-min consultation." />
+  <title>Alex Battikha | Tutoring &amp; College Consulting</title>
+  <meta name="description" content="Math and CS tutoring plus end-to-end college consulting from a world robotics champion, Jacobs Scholar (sub-1%), and admit to Johns Hopkins, UC Berkeley, UCLA, UCSD, and UIUC. Book a free 15-min consultation." />
   <meta name="robots" content="index, follow" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Alex Battikha — Tutoring &amp; College Consulting" />
+  <meta property="og:title" content="Alex Battikha | Tutoring &amp; College Consulting" />
   <meta property="og:description" content="Math &amp; CS tutoring and end-to-end college consulting from a world robotics champion, Jacobs Scholar, and admit to JHU, Berkeley, UCLA, UCSD, and UIUC." />
   <meta property="og:image" content="/assets/headshot.jpg" />
   <meta property="og:url" content="https://alexbattikha.com" />
@@ -74,9 +74,9 @@
     .hero-photo-frame { aspect-ratio: 1; border-radius: 50%; overflow: hidden; width: 100%; max-width: 360px; margin: 0 auto; box-shadow: 0 30px 80px rgba(31,42,68,0.18), var(--shadow-lg); border: 8px solid #fff; }
     .hero-photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 12%; transform: scale(1.4); transform-origin: center 12%; }
 
-    .floating-stat { position: absolute; background: #fff; border-radius: 14px; padding: 12px 16px; box-shadow: var(--shadow-md); font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 10px; }
-    .floating-stat .ico { width: 32px; height: 32px; background: var(--orange); color: #fff; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
-    .floating-stat strong { color: var(--text-dark); font-weight: 800; }
+    .floating-stat { position: absolute; background: #fff; border-radius: 14px; padding: 12px 18px 12px 16px; box-shadow: var(--shadow-md); font-size: 13px; font-weight: 600; border-left: 4px solid var(--orange); }
+    .floating-stat strong { color: var(--text-dark); font-weight: 800; display: block; margin-bottom: 2px; }
+    .floating-stat .detail { color: var(--text-mid); font-weight: 500; }
     .stat-1 { top: 30px; left: -20px; }
     .stat-2 { bottom: 60px; right: -10px; }
 
@@ -95,10 +95,10 @@
     .sd-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 64px; align-items: center; }
     .sd-grid.reverse { direction: rtl; }
     .sd-grid.reverse > * { direction: ltr; }
-    .sd-icon-block { background: linear-gradient(135deg, var(--orange) 0%, #f39c12 100%); border-radius: var(--radius-md); padding: 60px 40px; text-align: center; box-shadow: var(--shadow-lg); }
-    .sd-icon-block .big-icon { font-size: 80px; line-height: 1; margin-bottom: 16px; }
-    .sd-icon-block .big-stat { color: #fff; font-size: 28px; font-weight: 800; margin-bottom: 4px; }
-    .sd-icon-block .big-stat-label { color: rgba(255,255,255,0.85); font-size: 14px; }
+    .sd-icon-block { background: linear-gradient(135deg, var(--orange) 0%, #f39c12 100%); border-radius: var(--radius-md); padding: 56px 40px; box-shadow: var(--shadow-lg); }
+    .sd-icon-block .sd-num { color: rgba(255,255,255,0.65); font-size: 14px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 28px; }
+    .sd-icon-block .big-stat { color: #fff; font-size: 36px; font-weight: 800; line-height: 1.05; margin-bottom: 10px; letter-spacing: -0.4px; }
+    .sd-icon-block .big-stat-label { color: rgba(255,255,255,0.9); font-size: 15px; line-height: 1.55; }
     .sd-h2 { font-size: 32px; font-weight: 800; margin-bottom: 16px; letter-spacing: -0.4px; }
     .sd-desc { font-size: 16px; color: var(--text-mid); line-height: 1.7; margin-bottom: 24px; }
     .sd-list { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 28px; }
@@ -107,12 +107,11 @@
 
     /* Credibility row */
     .cred-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 40px; }
-    .cred-card { background: var(--bg-warm); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 24px 20px; transition: all 0.2s; }
+    .cred-card { background: var(--bg-warm); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 26px 22px; transition: all 0.2s; border-top: 3px solid var(--orange); }
     .cred-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
-    .cred-icon { font-size: 26px; margin-bottom: 10px; }
-    .cred-label { font-size: 16px; font-weight: 700; }
-    .cred-org { font-size: 12px; font-weight: 600; color: var(--orange); margin-bottom: 8px; }
-    .cred-desc { font-size: 13px; color: var(--text-mid); line-height: 1.55; }
+    .cred-org { font-size: 11px; font-weight: 700; color: var(--orange); margin-bottom: 6px; letter-spacing: 1.5px; text-transform: uppercase; }
+    .cred-label { font-size: 18px; font-weight: 800; letter-spacing: -0.3px; margin-bottom: 12px; }
+    .cred-desc { font-size: 13.5px; color: var(--text-mid); line-height: 1.6; }
 
     /* Booking */
     .booking-section { background: linear-gradient(160deg, #fff8ee 0%, var(--bg-warm) 100%); }
@@ -168,7 +167,7 @@
             <button class="toggle-tab" data-tab="consulting">College Consulting</button>
           </div>
           <h1 class="hero-h1" id="hero-h1">Build the math &amp; CS skills that <span class="accent">actually stick.</span></h1>
-          <p class="hero-sub" id="hero-sub">World robotics champion and Jacobs Scholar (sub-1%) — teaching middle and high schoolers to master the material from the inside out, not just memorize it.</p>
+          <p class="hero-sub" id="hero-sub">World robotics champion and Jacobs Scholar (sub-1% acceptance). I help middle and high schoolers actually understand the material instead of memorizing it for the next test.</p>
           <div class="hero-actions">
             <a href="#service-tutoring" class="btn-primary" id="hero-cta">See tutoring details →</a>
             <a href="#book" class="btn-outline">Book Free Consult</a>
@@ -178,8 +177,8 @@
           <div class="hero-photo-frame">
             <img src="assets/headshot.jpg" alt="Alex Battikha" />
           </div>
-          <div class="floating-stat stat-1"><div class="ico">🏆</div><div><strong>FTC World Champion</strong><br>1st of 7,100+ teams</div></div>
-          <div class="floating-stat stat-2"><div class="ico">🎓</div><div><strong>Jacobs Scholar</strong><br>Sub-1% acceptance</div></div>
+          <div class="floating-stat stat-1"><strong>FTC World Champion</strong><div class="detail">1st of 7,100+ teams</div></div>
+          <div class="floating-stat stat-2"><strong>Jacobs Scholar</strong><div class="detail">Sub-1% acceptance</div></div>
         </div>
       </div>
     </div>
@@ -209,14 +208,14 @@
     <div class="container">
       <div class="sd-grid">
         <div class="sd-icon-block">
-          <div class="big-icon">📐</div>
+          <div class="sd-num">Service 01</div>
           <div class="big-stat">Starts at $35/hr</div>
-          <div class="big-stat-label">Flexible based on subject &amp; need</div>
+          <div class="big-stat-label">Flexible based on subject and need.</div>
         </div>
         <div>
-          <p class="eyebrow">Service 01 · Math &amp; CS Tutoring</p>
+          <p class="eyebrow">Math &amp; CS Tutoring</p>
           <h2 class="sd-h2">Real understanding. Lasting confidence.</h2>
-          <p class="sd-desc">From algebra fundamentals to AMC competition prep — sessions are built around how your student actually learns, not a rigid curriculum.</p>
+          <p class="sd-desc">From algebra fundamentals to AMC competition prep. Every session is built around how your student actually learns, not a rigid curriculum.</p>
           <ul class="sd-list">
             <li>Algebra I &amp; II</li>
             <li>Pre-Calculus</li>
@@ -236,14 +235,14 @@
     <div class="container">
       <div class="sd-grid reverse">
         <div class="sd-icon-block">
-          <div class="big-icon">🎓</div>
+          <div class="sd-num">Service 02</div>
           <div class="big-stat">End-to-end</div>
-          <div class="big-stat-label">Planning · essays · submission</div>
+          <div class="big-stat-label">Planning, essays, and submission.</div>
         </div>
         <div>
-          <p class="eyebrow">Service 02 · College Consulting</p>
+          <p class="eyebrow">College Consulting</p>
           <h2 class="sd-h2">Plan it. Write it. Submit it. Get in.</h2>
-          <p class="sd-desc">A full-service path through the college process — from picking the right list of schools to hitting submit on a polished application that tells your student's real story.</p>
+          <p class="sd-desc">A full-service path through the college process, from picking the right list of schools to hitting submit on a polished application that tells your student's real story.</p>
           <ul class="sd-list">
             <li>Multi-year roadmap</li>
             <li>School list strategy</li>
@@ -265,28 +264,24 @@
       <h2 class="section-title" style="text-align:center;">Receipts, not just résumé bullets</h2>
       <div class="cred-row">
         <div class="cred-card">
-          <div class="cred-icon">🏆</div>
-          <div class="cred-label">World Champion</div>
           <div class="cred-org">FTC Robotics</div>
-          <p class="cred-desc">Captain of FTC 11212 — 1st place out of 7,100+ teams worldwide.</p>
+          <div class="cred-label">World Champion</div>
+          <p class="cred-desc">Captain of FTC 11212. 1st place out of 7,100+ teams worldwide.</p>
         </div>
         <div class="cred-card">
-          <div class="cred-icon">🎓</div>
-          <div class="cred-label">Jacobs Scholar</div>
           <div class="cred-org">UC San Diego</div>
-          <p class="cred-desc">Full-ride merit scholarship — only 9 awarded nationally per year.</p>
+          <div class="cred-label">Jacobs Scholar</div>
+          <p class="cred-desc">Full-ride merit scholarship. Only 9 awarded nationally per year.</p>
         </div>
         <div class="cred-card">
-          <div class="cred-icon">🔬</div>
-          <div class="cred-label">Published Research</div>
           <div class="cred-org">Sanford Burnham · UCSD</div>
-          <p class="cred-desc">Co-led ML pipeline (Nature pending) and surgical robotics research.</p>
+          <div class="cred-label">Published Research</div>
+          <p class="cred-desc">Co-led an ML pipeline (Nature pending) and contributed to surgical robotics research.</p>
         </div>
         <div class="cred-card">
-          <div class="cred-icon">⚡</div>
-          <div class="cred-label">Founder</div>
           <div class="cred-org">strvX · Neuron AI</div>
-          <p class="cred-desc">Shipped real AI products — automation tools and an AI tutor co-pilot.</p>
+          <div class="cred-label">Founder</div>
+          <p class="cred-desc">Shipped real AI products: automation tools and an AI tutor co-pilot.</p>
         </div>
       </div>
     </div>
@@ -298,7 +293,7 @@
       <div class="booking-head">
         <p class="eyebrow">Free Consultation</p>
         <h2 class="booking-title">Tell me about your student.</h2>
-        <p class="booking-desc">15 minutes, free. We'll talk about whether your student needs tutoring, college consulting, or both — and what a realistic path forward looks like.</p>
+        <p class="booking-desc">15 minutes, free. We'll talk about whether your student needs tutoring, college consulting, or both, and what a realistic path forward looks like.</p>
         <div class="booking-perks">
           <div class="booking-perk"><span class="perk-icon">✓</span><span>Honest, parent-to-parent conversation</span></div>
           <div class="booking-perk"><span class="perk-icon">✓</span><span>Walk away with a clear next step</span></div>
@@ -328,13 +323,13 @@
     const content = {
       tutoring: {
         h1: 'Build the math &amp; CS skills that <span class="accent">actually stick.</span>',
-        sub: 'World robotics champion and Jacobs Scholar (sub-1%) — teaching middle and high schoolers to master the material from the inside out, not just memorize it.',
+        sub: 'World robotics champion and Jacobs Scholar (sub-1% acceptance). I help middle and high schoolers actually understand the material instead of memorizing it for the next test.',
         ctaText: 'See tutoring details →',
         ctaHref: '#service-tutoring'
       },
       consulting: {
         h1: 'A college plan from someone who <span class="accent">actually got in.</span>',
-        sub: 'Admitted to Johns Hopkins, UC Berkeley, UCLA, UC San Diego (Jacobs Scholar), and UIUC — now guiding students end-to-end: planning, essays, and submission.',
+        sub: 'Admitted to Johns Hopkins, UC Berkeley, UCLA, UC San Diego (Jacobs Scholar), and UIUC. Now guiding students end-to-end: planning, essays, and submission.',
         ctaText: 'See consulting details →',
         ctaHref: '#service-consulting'
       }
